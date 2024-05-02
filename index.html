@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Restaurant "AW BISMILLAH"</title>
+        <link rel="stylesheet" href="/styles/mon_style.css">
+        <script src="scripts/script.js" defer></script>
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    </head>
+
+    <body>
+        <div id="contenu">
+            <!-- MESSAGE INFORMATION COMMANDE -->
+            <div id="message-box">
+                <dialog open style="border: 4px; background-color: white; margin-top: 0px; margin-left: 0px;">
+                    <p style="color: red; text-decoration: underline;"><strong>Message important !</strong></p>
+                    <p>Les commandes ne sont effectuées que par téléphone via le bouton « Commander ».</p>
+                    <p>Après avoir passé vos commandes, merci de les récupérer à l'adresse située en haut à gauche du plan google map.</p>
+                    <form method="dialog">
+                    <button>FERMER</button>
+                    </form>
+                </dialog>
+            </div>
+
+            <!-- ENTETE DE LA PAGE -->
+            <header>
+                <!-- Banner -->
+                <div class="banner">
+                    <!-- MENU BURGER -->
+                    <div id="mySidenav" class="sidenav">
+                        <a id="closeBtn" href="#closeBtn" class="close">×</a>
+                        <ul>
+                        <li><a href="#titre-h1">A propos</a></li>
+                        <li><a href="#plateaux">Nos plateaux</a></li>
+                        <li><a href="#l-footer">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="burger-border">
+                        <a href="#" id="openBtn">
+                            <span class="burger-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </a>
+                    </div> 
+              
+                    <!-- LOGO RESTAURANT -->
+                    <img class="logo" src="images/logo/logo-svg.svg" alt="LOGO RESTAURANT AW BISMILLAH">
+
+                    <!-- BUTTON COMMANDER -->
+                    <button class="button" onclick="window.location.href='tel:0767379664'">Commander</button>
+                </div>
+            </header>
+
+            <!-- CORPS DE LA PAGE -->
+            <section>
+                <article>
+
+                    <h1 id="titre-h1"><strong>"I Bismillah" - Soyez le(a) bienvenu(e)</strong></h1>
+                    <div class="separateur"></div>
+
+                    <div class="separateur_verticale">
+                        <p>
+                            Envie d'une petite escapade culinaire entre l'<span><a href="https://www.google.com/search?sca_esv=142620ecb81ebb8b&sca_upv=1&rlz=1C1UEAD_frFR1027FR1027&sxsrf=ACQVn09L6cNClqBa_764OYe7xZgWUWuCNQ:1714384650298&q=cuisine+afrique+de+l%27ouest&uds=AMwkrPsg_JvUfmGZWVnIanpSJbfw23rAb6kIWtnzz1mjv3dNCpA8yx5R1dOtklK-RLWpD8C84NnDa6Cdwz-NoiUZ3WeERppnH0_ihPUYdOYH7JDKOzZKZDij9GNJ6qUv-m-B5DtAjxTkuL0R6DDYKK8pgrTqynViuR8Zlrohi3q9RGdfbXESmJpu0FqZy0P_NMbWVzROSMs_yFWtrtD4GG6pNdBfarXDaQ1bWAe7wGuLtDz2HU4gJd_gNGkutmKeaO3mMHZr51oOYa7pBZ2VrgevmI_gt76-pg&udm=2&prmd=ivnbz&sa=X&sqi=2&ved=2ahUKEwiomdvAlOeFAxUOT6QEHWxMA58QtKgLegQIDRAB&biw=1745&bih=828&dpr=1.1" target="_blank" class="orange-bold">Afrique de l'ouest</a></span> et l'<span><a href="https://www.google.com/search?q=cuisine+mayotte&sca_esv=142620ecb81ebb8b&sca_upv=1&rlz=1C1UEAD_frFR1027FR1027&udm=2&biw=1745&bih=828&sxsrf=ACQVn0_3xvn9APtmx0ESnIl6os0Yi5-ICQ%3A1714384968749&ei=SHAvZuSoLYWokdUPv_qp8AE&ved=0ahUKEwjk7MfYleeFAxUFVKQEHT99Ch4Q4dUDCBA&uact=5&oq=cuisine+mayotte&gs_lp=Egxnd3Mtd2l6LXNlcnAiD2N1aXNpbmUgbWF5b3R0ZTIEECMYJzIEECMYJzIGEAAYBRgeMgYQABgIGB5InBdQ3AdYrxRwAXgAkAEAmAFQoAHQA6oBATe4AQPIAQD4AQGYAgigAugDwgIHEAAYgAQYGMICCBAAGIAEGLEDwgIFEAAYgASYAwCIBgGSBwE4oAf2Lw&sclient=gws-wiz-serp" target="_blank" class="orange-bold">Ile de Mayotte</a></span> ? <br>
+                            Les plateaux <span class="orange-bold">"AW BISMILLAH"</span> sont spécialement faits pour toi. <br>
+                            Viens savourer nos assiettes bien garnis et délicieux. <br>
+                            N'hésites pas à explorer notre site internet pour plus de détails sur nos plateaux. <br>
+                            As tu fait ton choix ? N'hésite plus ! Passe tes <span><a href="tel:0767379664" class="orange-bold">commandes</a></span> maintenant ! 
+                        </p>
+                    </div>
+                    
+                    <div>
+                        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.0500804291214!2d1.2241160757809553!3d45.83027960893959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fecb67c4bbc7eb%3A0x5e08241747b7ad99!2s11%20Rue%20Fustel%20de%20Coulanges%2C%2087000%20Limoges!5e0!3m2!1sfr!2sfr!4v1714133587128!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+
+                    <div class="separateur"></div>
+                    <h2 id="plateaux">Les plateaux "AW BISMILLAH"</h2>
+                    <div class="box">
+                        <div class="element_col nos_plats">
+                            <p class="prix_plat">Prix: 16 €</p>
+                            <img src="images/thiep_poisson.jpg" alt="IMAGE PLAT TCHEP POISSON" class="image_plats">
+                            <p class="desciption_plat">
+                                Tchep<br>
+                                <small>viande au choix</small><br>
+                                <small>boeuf / poisson / poulet</small><br>
+                            </p>
+                        </div>
+
+                        <div class="element_col nos_plats">
+                            <p class="prix_plat">Prix: 14 €</p>
+                            <img src="images/riz_sakassaka.jpg" alt="IMAGE PLAT SAKASSAKA" class="image_plats">
+                            <p class="desciption_plat">
+                                Riz + Sakassaka<br>
+                                <small>viande au choix</small><br>
+                                <small>boeuf / poisson / poulet</small><br>
+                            </p>
+                        </div>
+
+                        <div class="element_col nos_plats">
+                            <p class="prix_plat">Prix-unitaire: 2.5 €</p>
+                            <img src="images/samboussa.jpg" alt="IMAGE PLAT SAMBOUSSA" class="image_plats">
+                            <p class="desciption_plat">
+                                Samboussa / Nems<br>
+                                <small>viande au choix</small><br>
+                                <small>boeuf / thon / poulet</small><br>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+
+                <p style="font-size: 1.6rem;">Lorem ipsum dolor sit amet cribus veniam expedita soluta voluptatum animi, voluptates, praesentium illo minus nulla amet velit, culpa natus! Perspiciatis, repellendus harum fugit iusto mollitia ipsum minima o deleniti dicta sit soluta maxime est, ex nostrum explicabo laborum facere quisquam animi? Corporis laborum ex sequi nisi, maxime, earum asperiores quisquam dolore explicabo expedita placeat, qui error id similique dolorem eveniet fugiat laudantium tempore quam alias officia voluptatem rerum! Reiciendis voluptatem eveniet obcaecati expedita odio vero provident laboriosam, officia nobis, hic consectetur. Facere dolores molestias esse, quasi sapiente quaerat totam labore sequi distinctio fugit laudantium quis nesciunt odio perferendis repellat quibusdam, consequuntur voluptatem praesentium iste inventore quae nihil, explicabo dicta. Deleniti in molestiae quas reiciendis sunt corporis. Sunt, libero sit. Tempore consequatur et quo! Corrupti neque nisi perspiciatis consequatur nostrum consectetur impedit, suscipit voluptatum molestias reiciendis debitis adipisci accusantium fugit delectus provident, sit eligendi asperiores deleniti, tempore totam quia voluptatem molestiae autem? Perspiciatis quia ratione itaque optio dolore veniam facilis, officia quod odit rem, dicta velit? Odit quidem, natus quia tenetur nihil facilis neque architecto velit voluptate et porro?</p>
+            
+            </section>   
+
+            <!-- PIEDS DE LA PAGE -->
+            <footer id="l-footer">
+                <p>Suivez nous sur les réseaux sociaux</p>
+                <div class="social-networks">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:5500/" target="_blank" class="social-icon">
+                        <img src="images/logo/reseaux_sociaux/facebook.png" alt="partage_sur_facebook">
+                    </a>
+                    <a href="https://www.instagram.com/share/url?url=http://127.0.0.1:5500/index.html" target="_blank" class="social-icon">
+                        <img src="images/logo/reseaux_sociaux/instagram.png" alt="partage_sur_instagram">
+                    </a>
+                    <a href="https://www.snapchat.com/fr-FR" class="social-icon" target="_blank">
+                        <img src="images/logo/reseaux_sociaux/snapchat.png" alt="partage_sur_snapchat">
+                    </a>
+                </div>
+                <div style="border: solid 2px #421a11; width: 100px; display: block; margin-left: auto; margin-right: auto; margin-top: 10px;"></div>
+                <p>
+                    Nos contacts <br><br>
+                    Téléphone : 
+                    <a href="tel:0767379664" style="color:#421a11;">07-60-26-51-59 | </a>
+                    <a href="tel:0760265159" style="color:#421a11;">07-67-37-96-64</a> <br>
+                    Email : 
+                    <a href="mailto:restaurant.awbismillah@gmail.com" style="color:#421a11">restaurant.awbismillah@gmail.com</a>
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>
